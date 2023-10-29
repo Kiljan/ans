@@ -1,0 +1,12 @@
+- name: Configure sshd 
+  copy:
+    src: sshd_config
+    dest: /etc/ssh/sshd_config
+  notify:
+  - Restart sshd
+
+- name: Enable sshd.service
+  service:
+    name: sshd
+    state: started
+    enabled: yes
