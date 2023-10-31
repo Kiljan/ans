@@ -1,0 +1,13 @@
+desired_state_basic: "present"
+main_packages:
+  - tcpdump
+  - rkhunter
+  - clamav
+  - tmux 
+  - vim
+  - git
+  - curl
+  - wget
+  - bash-completion
+  - yum-utils
+  - glibc
