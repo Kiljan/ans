@@ -10,3 +10,4 @@ main_packages:
   - wget
   - bash-completion
   - yum-utils
+  - glibc
