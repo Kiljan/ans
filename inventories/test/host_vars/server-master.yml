@@ -11,3 +11,4 @@ main_packages:
   - bash-completion
   - yum-utils
   - glibc
+  - java-11-openjdk-devel
