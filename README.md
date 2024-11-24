@@ -1,7 +1,7 @@
 # ans
 Ansible scripts for terra project
 
-To use this, you must first implement the terraform configuration from [https://github.com/Kiljan/terra.git/ ](https://github.com/Kiljan/Lab-One-Terraform.git)
+To use this, you must first implement the terraform configuration from [Lab One Terraform](https://github.com/Kiljan/Lab-One-Terraform.git)
 
 Then use that repository, create a new Jenkins pipeline and run it. I use the localhost agent for this purpose (AFTER_ANSIBLE_K8).
 
